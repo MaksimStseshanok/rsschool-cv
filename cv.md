@@ -77,6 +77,10 @@ Course "Website Development Using HTML, CSS and JavaScript"
 
 Course "JavaScript Web Application Development"
 
+##### - [FructCode](https://fructcode.com/ru/) - Interactive lessons and programming courses:
+
+[Certificate](https://fructcode.com/ru/certificates/55d2ea8889312f1a99cf64a014e9422d/en/)
+
 #### Language skills:
 
 - English: A1+

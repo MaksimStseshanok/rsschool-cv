@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV, Maksim Stseshanok</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./img/photo.png" alt="my photo.png" class="photo" />
+        <h1 class="title">Maksim Stseshanok</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="info">
+          <p class="info-title">
+            E-mail:
+            <i
+              ><a href="mailto:maksim.stseshanok@gmail.com">
+                maksim.stseshanok@gmail.com</a
+              ></i
+            >
+          </p>
+          <p class="info-title">
+            Linkedin:
+            <i
+              ><a href="https://www.linkedin.com/in/maksim-stseshanok/"
+                >Maksim Stseshanok</a
+              ></i
+            >
+          </p>
+          <p>
+            I am looking for a company that is ready to accept a diligent
+            developer with no work experience. Over the past six months, I have
+            completed two courses in front-end development and really want to
+            realize myself as a specialist in this area.
+          </p>
+          <p class="info-title">My conception about ideal work:</p>
+          <ul>
+            <li>interesting and challenging tasks</li>
+            <li>opportunities for professional growth</li>
+            <li>friendly working atmosphere</li>
+          </ul>
+          <p class="info-title">My skills:</p>
+          <ul>
+            <li class="li-title">
+              Programming languages and skills:
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+              </ul>
+            </li>
+            <li class="li-title">
+              Version control:
+              <ul>
+                <li>GIT</li>
+                <li>GitLab</li>
+              </ul>
+            </li>
+            <li class="li-title">
+              Methodologies:
+              <ul>
+                <li>BEM</li>
+              </ul>
+            </li>
+            <li class="li-title">
+              Tools:
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>Sublime</li>
+                <li>DevTools</li>
+                <li>PhotoShop</li>
+              </ul>
+            </li>
+          </ul>
+          <p class="info-title">Code examples:</p>
+          <p class="descr">
+            Show a modal window corresponding to the name of the pressed button.
+          </p>
+          <pre class="code">
+              <code>
+                import { createModalForm } from "./createModalForm.js";
+                import { createModalAbout } from "./createModalAbout.js";
+                import { showForm } from "./showForm.js";
+                import { showAbout } from "./showAbout.js";
+
+                export const showModalForm = () => {
+                createModalForm();
+                createModalAbout();
+
+                    document.addEventListener("click", () => {
+                        let click = event.target.innerText;
+                        if (click === "Вход") {
+                        showForm();
+                        } else if (click === "Об игре") {
+                        showAbout();
+                        }
+                    });
+                };
+              </code>
+          </pre>
+          <p class="info-title">Professional experience:</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Work</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>September 2020</td>
+                <td>
+                  Write a mini-game “geometric shapes” using
+                  <a href="https://www.pixijs.com/">PixiJS</a>:<br />- On the
+                  playing field in arbitrary places there are geometric shapes
+                  (up to 10 pieces of only 3 different types - triangle, circle,
+                  square), their size, rotation, color and position are chosen
+                  randomly. At the bottom of the screen there are 3 shapes
+                  (triangle, circle, square) where you need to move the shapes
+                  from above, if the shape type matches, then the shape from
+                  above disappears, if not, then it returns to its place;<br />-
+                  <strong
+                    ><a href="https://github.com/MaksimStseshanok/pixiProject"
+                      >Source code</a
+                    ></strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>July 2020</td>
+                <td>
+                  Cross-browser SPA:<br />- Game “Football tactics” using
+                  localStorage for user registration and authorization;<br />-
+                  <strong
+                    ><a
+                      href="https://github.com/MaksimStseshanok/footballTactics"
+                      >Source code</a
+                    ></strong
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="info-title">Courses:</p>
+          <div class="courses-info">
+            <a href="https://www.gomel.it-academy.by/">IT-Academy </a>
+            - Educational Center for Programming and High Technologies: <br />
+            <i>Course “Website Development Using HTML, CSS and JavaScript”</i>
+          </div>
+          <div class="courses-info">
+            <a href="https://www.gomel.it-academy.by/">IT-Academy </a>
+            - Educational Center for Programming and High Technologies: <br />
+            <i>Course “JavaScript Web Application Development”</i>
+          </div>
+          <div class="courses-info">
+            <a href="https://fructcode.com/ru/">FructCode </a>
+            - Interactive lessons and programming courses: <br />
+            <i>Course “JavaScript Web Application Development”</i>
+          </div>
+          <p class="info-title">Language skills:</p>
+          <ul>
+            <li>English: A1+</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p class="footer">
+        &copy; 2020 made by Maksim Stseshanok. All rights reserved
+      </p>
+    </footer>
+  </body>
+</html>

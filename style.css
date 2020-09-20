@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+}
+
+body {
+  background-color: #2125292d;
+  font-size: calc(14px + 4 * (100vw / 1175));
+}
+
+a {
+  text-decoration: none;
+  color: #1098ad;
+}
+
+p {
+  padding: 10px;
+}
+
+ul {
+  margin: 10px 0px;
+}
+
+li {
+  margin-left: 30px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1175px;
+  text-align: center;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.photo {
+  margin: 20px 0px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+.info {
+  text-align: left;
+}
+
+.info-title,
+.table-title {
+  font-weight: bold;
+  color: #4263eb;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.li-title,
+.descr {
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+}
+
+.code {
+  background: #2125292d;
+  border-radius: 8px;
+  color: #f5d67b;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+
+code {
+  line-height: 1.5;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: #2125292d;
+  border-top: 1px solid #c6cbd1;
+}
+
+th {
+  text-align: center;
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.courses-info {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0px;
+  background-color: #2125292d;
+}
